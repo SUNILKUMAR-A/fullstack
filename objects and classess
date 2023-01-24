@@ -1,0 +1,20 @@
+// You are using Java
+ class Students{
+   String name;
+   int age;
+   int rollNo;
+   void print(){
+       System.out.println("NAME : "+name);
+       System.out.println("AGE : "+age);
+       System.out.println("ROLLNO : "+rollNo);
+   }
+}
+   class Main{
+   public static void main(String args[]){
+       Students std=new Students();
+       std.name="sunil";
+       std.age=21;
+       std.rollNo=164;
+       std.print();
+   }
+}
